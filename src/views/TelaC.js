@@ -3,4 +3,10 @@ import TextoCentral from '../components/TextoCentral';
 
 // import { Container } from './styles';
 
-export default () => <TextoCentral corFundo="#9932cd">Tela C</TextoCentral>;
+export default (props) => {
+  return (
+    <TextoCentral corFundo="#9932cd">
+      Tela C - {props.route.params.numero} - {props.route.params.numero2}
+    </TextoCentral>
+  );
+};
