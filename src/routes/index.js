@@ -8,7 +8,7 @@ import Drawer from '../routes/Drawer';
 export default () => (
   <SafeAreaView style={{flex: 1}}>
     <NavigationContainer>
-      <Drawer />
+      <Tab />
     </NavigationContainer>
   </SafeAreaView>
 );
